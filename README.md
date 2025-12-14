@@ -14,6 +14,21 @@ The **Instagram Content Recommender** is an end-to-end data science project desi
 
 Additionally, the application integrates **Google Gemini AI** to provide qualitative strategy advice based on the model's numerical predictions.
 
+Based on the analysis of the repository files, here is a detailed description of the project that you can use in your `README.md` file (specifically in the "About" or "Project Overview" section).
+
+### **Project Description**
+
+The **Instagram Content Recommender** is an end-to-end data analytics and machine learning solution designed to help content creators optimize their social media strategy. This project bridges the gap between raw data and actionable insights by analyzing historical engagement metrics (Likes, Reach, Comments) to predict the success of future posts.
+
+The system operates through a complete data pipeline:
+1.  **Data Processing:** Raw Instagram analytics data is processed using **SQL** and **Python** to handle duplicates, clean features, and aggregate performance metrics by category and media type.
+2.  **Visualization:** A **Tableau Dashboard** provides a visual narrative of month-over-month growth and category comparisons, allowing users to identify trends in "Reels" vs. "Static" content performance.
+3.  **Predictive Modeling:** The project utilizes advanced Machine Learning algorithms, specifically **XGBoost** and **Artificial Neural Networks (ANN)**, to forecast engagement rates based on input features like hashtags, caption length, and posting time.
+4.  **AI-Powered Application:** A **Streamlit** web application serves as the user interface. It integrates **Google Gemini AI** to interpret the model's numerical predictions and generate qualitative, text-based strategy reports, offering users specific advice on how to improve their content's reach.
+
+This repository serves as a comprehensive guide to building a predictive analytics tool, covering data engineering, model training, and application deployment.
+
+
 ## 📂 Repository Structure
 
 ```text
