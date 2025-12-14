@@ -139,7 +139,7 @@ with right_col:
         if api_key:
             try:
                 genai.configure(api_key=api_key)
-                gemini = genai.GenerativeModel('gemini-1.5-flash')
+                gemini = genai.GenerativeModel('gemini-2.5-flash')
                 
                 prompt = f"""
                 Act as a social media expert. I have a planned Instagram post:
