@@ -1,9 +1,28 @@
-# Instagram-Content-Recommender
-This is an end to end project on Instagram content Recommendation. Starting from the phase of data cleaning , building a content dashboard and making a model for content recommendation..
-<img width="850" height="1100" alt="Data" src="https://github.com/user-attachments/assets/29aaa3dc-0efd-4e19-96f4-8dd57eeea5a5" />
+# 📸 Instagram Content Recommender & Analytics
 
-<img width="850" height="1100" alt="Dimensions-Measures" src="https://github.com/user-attachments/assets/aa356890-a766-4e5e-bbfe-adcdf7deb2c8" />
+![Banner](Images/Logo-Dashboard.jpg)
 
-<img width="850" height="1100" alt="Container-segmentation" src="https://github.com/user-attachments/assets/ae3176e7-f77f-467f-b7c4-1af540556273" />
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?logo=tableau&logoColor=white)
+![XGBoost](https://img.shields.io/badge/ML-XGBoost-green)
+![Streamlit](https://img.shields.io/badge/App-Streamlit-red?logo=streamlit&logoColor=white)
 
-![Data-Understanding](https://github.com/user-attachments/assets/21460bde-98fd-4d51-91d7-40b3fe1b5dbf)
+## 📖 Project Overview
+
+The **Instagram Content Recommender** is an end-to-end data science project designed to help content creators optimize their strategy. By analyzing historical Instagram data, this project provides actionable insights via a Tableau dashboard and utilizes Machine Learning models (ANN & XGBoost) to predict the reach and engagement (Likes) of future posts based on content type, timing, and category.
+
+Additionally, the application integrates **Google Gemini AI** to provide qualitative strategy advice based on the model's numerical predictions.
+
+## 📂 Repository Structure
+
+```text
+├── App.py                       # Streamlit Application (AI Strategist & Predictor)
+├── Images/                      # Project assets, diagrams, and logos
+├── Models/                      # Saved ML models (.h5, .pkl) and Encoders
+├── Scripts-ML/                  # Jupyter Notebooks for EDA, Training, and Prediction
+├── SQL-Scripts/                 # SQL scripts for data profiling and insights
+├── Tableau-Dashboard/           # Tableau workbooks and analytics screenshots
+├── Splitted-Data/               # Train/Test CSV datasets
+├── instagram-analytics-dataset/ # Raw dataset
+└── requirements.txt             # Python dependencies
